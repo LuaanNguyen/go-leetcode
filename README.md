@@ -1,4 +1,4 @@
-# LeetCode Solutions in Go ✏️
+# Daily LeetCode Solutions in Go ✏️
 
 This repository contains my solutions to LeetCode problems in [Go](https://go.dev/).
 
@@ -26,11 +26,12 @@ go test ./easy/0001_two_sum
 
 ### Solutions (Continue Updating...)
 
-|                                    Leetcode ID                                     | Title & Solution                          | Coefficient Of Difficulty |       Remarks        |
-| :--------------------------------------------------------------------------------: | :---------------------------------------- | :-----------------------: | :------------------: |
-|             [0001](https://leetcode.com/problems/two-sum/description/)             | [Two Sum](/easy/)                         |           Easy            |     _`HashMap`_      |
-|         [0392](https://leetcode.com/problems/is-subsequence/description/)          | [Is Subsequence](/easy/)                  |           Easy            |   _`Two Pointers`_   |
-| [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/) | [Count Prefix and Suffix Pairs I](/easy/) |           Easy            | _`Array`_ _`String`_ |
+|                                      Leetcode ID                                      | Title & Solution                             | Coefficient Of Difficulty |                 Remarks                  |
+| :-----------------------------------------------------------------------------------: | :------------------------------------------- | :-----------------------: | :--------------------------------------: |
+|              [0001](https://leetcode.com/problems/two-sum/description/)               | [Two Sum](/easy/)                            |           Easy            |               _`HashMap`_                |
+|           [0392](https://leetcode.com/problems/is-subsequence/description/)           | [Is Subsequence](/easy/)                     |           Easy            |             _`Two Pointers`_             |
+|  [3042](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/description/)   | [Count Prefix and Suffix Pairs I](/easy/)    |           Easy            |           _`Array`_ _`String`_           |
+| [2185](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/) | [Counting Words With a Given Prefix](/easy/) |           Easy            | _`Array`_ _`String`_ _`String Matching`_ |
 
 ### License 🪪
 
