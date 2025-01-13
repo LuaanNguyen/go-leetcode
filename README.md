@@ -34,6 +34,7 @@ go test ./easy/0001_two_sum
 |                         [2185](https://leetcode.com/problems/counting-words-with-a-given-prefix/description/)                         | [Counting Words With a Given Prefix](/easy/2185_counting_words_with_a_given_string)                   |           Easy            |     _`Array`_ _`String`_ _`String Matching`_     |
 |       [1400](https://leetcode.com/problems/construct-k-palindrome-strings/description/?envType=daily-question&envId=2025-01-11)       | [Construct K Palindrome Strings](/medium/1400_construct_k_palindrome_strings)                         |          Medium           | _`HashTable`_ _`String`_ _`Greedy`_ _`Counting`_ |
 | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/?envType=daily-question&envId=2025-01-12) | [Check if a Parentheses String Can Be Valid](/medium/2116_check_if_a_parentheses_string_can_be_valid) |          Medium           |         _`Stack`_ _`String`_ _`Greedy`_          |
+| [3223](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/?envType=daily-question&envId=2025-01-13)  | [Minimum Length of String After Operations](/medium/2116_check_if_a_parentheses_string_can_be_valid)  |          Medium           |      _`HashTable`_ _`String`_ _`Counting`_       |
 
 ## License 🪪
 
