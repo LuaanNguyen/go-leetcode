@@ -4,7 +4,7 @@ import "testing"
 
 
 func TestMinimumLength(t *testing.T) {
-	test := []struct {
+	tests := []struct {
 		name	string
 		s	string
 		expectedResult int 
@@ -22,8 +22,11 @@ func TestMinimumLength(t *testing.T) {
 	}
 
 	for _, test := range tests {
-
-
+		t.Run(test.name, func (t *testing.T) {
+			got := minimumLength(test.s)
+			if got != test.expectedResult {
+				t.Errorf("minimumLength(\"%s\") = %d; want %d", test.s, got, test.expectedResult)
+			}
+	})
 	}
-
 }
