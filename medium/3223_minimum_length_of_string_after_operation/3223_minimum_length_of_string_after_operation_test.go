@@ -1,0 +1,1 @@
+package minimum_length_of_string_after_operation
