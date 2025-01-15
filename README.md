@@ -36,6 +36,7 @@ go test ./easy/0001_two_sum
 | [2116](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid/description/?envType=daily-question&envId=2025-01-12) | [Check if a Parentheses String Can Be Valid](/medium/2116_check_if_a_parentheses_string_can_be_valid) |          Medium           |         _`Stack`_ _`String`_ _`Greedy`_          |
 | [3223](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/?envType=daily-question&envId=2025-01-13)  | [Minimum Length of String After Operations](/medium/2116_check_if_a_parentheses_string_can_be_valid)  |          Medium           |      _`HashTable`_ _`String`_ _`Counting`_       |
 | [2657](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/description/?envType=daily-question&envId=2025-01-14) | [Find the Prefix Common Array of Two Arrays](/medium/2657_find_the_prefix_common_array_of_two_arrays) |          Medium           |             _`HashTable`_ _`Array`_              |
+|                [2429](https://leetcode.com/problems/minimize-xor/description/?envType=daily-question&envId=2025-01-15)                | [Minimize XOR](/medium/2429_minimize_XOR)                                                             |          Medium           |               _`Bit Manupulation`_               |
 
 ## License 🪪
 
