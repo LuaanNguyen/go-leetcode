@@ -22,14 +22,24 @@ func TestEventualSafeNodes(t *testing.T) {
 		},
 		expectedResult: []int{2,4,5,6},
 		},
+		{
+			name: "Test Case 2",
+			graph: [][]int{
+			{1,2, 3, 4},
+			{1,2},
+			{3,4},
+			{0,4},
+			{},
+		},
+		expectedResult: []int{4},
+		},
 	}
-
 
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			got := eventualSafeNodes(test.graph)
 			if !equalSlice(got, test.expectedResult) {
-				t.Errorf("eventual")
+				t.Errorf("eventualSafeNodes(%v) = %v; want = %v", test.graph, got, test.expectedResult)
 			}
 		})
 	}
