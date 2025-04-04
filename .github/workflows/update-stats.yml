@@ -1,0 +1,72 @@
+name: Update Repository Statistics
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "easy/**"
+      - "medium/**"
+      - "hard/**"
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Update Statistics
+        run: |
+          python3 - <<EOF
+          import os
+          from collections import Counter
+
+          def count_solutions():
+              counts = Counter()
+              for difficulty in ['easy', 'medium', 'hard']:
+                  if os.path.exists(difficulty):
+                      counts[difficulty] = len([name for name in os.listdir(difficulty) if os.path.isdir(os.path.join(difficulty, name))])
+              return counts
+
+          def update_readme(counts):
+              with open('README.md', 'r') as f:
+                  content = f.read()
+              
+              # Add statistics section if it doesn't exist
+              stats_section = f"""
+          ## Statistics 📊
+
+          - Easy: {counts['easy']} solutions
+          - Medium: {counts['medium']} solutions
+          - Hard: {counts['hard']} solutions
+          - Total: {sum(counts.values())} solutions
+          """
+              
+              if '## Statistics' in content:
+                  # Replace existing statistics section
+                  import re
+                  content = re.sub(r'## Statistics.*?(?=##|$)', stats_section, content, flags=re.DOTALL)
+              else:
+                  # Add statistics section before License
+                  content = content.replace('## License', stats_section + '\n## License')
+              
+              with open('README.md', 'w') as f:
+                  f.write(content)
+
+          counts = count_solutions()
+          update_readme(counts)
+          EOF
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || git commit -m "Update repository statistics"
+          git push
