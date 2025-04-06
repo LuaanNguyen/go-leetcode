@@ -48,6 +48,7 @@ go test ./easy/0001_two_sum
 |          [802](https://leetcode.com/problems/find-eventual-safe-states/description/?envType=daily-question&envId=2025-01-24)          | [Find Eventual Safe States](/medium/802_find_eventual_safe_states)                                                          |          medium           |                            _`Depth-First Search`_ _`Adjacency List`_                             |                                                                                                                                                                                                                        |
 |                                           [75](https://leetcode.com/problems/sort-colors/)                                            | [Sort Colors](/medium/75_sort_colors)                                                                                       |          medium           |                              _`Three Pointers`_ _`DNF Algortithm`_                               |                                    Initalize 3 pointers. Left and mid at 0, high at len(nums) - 1. Do a while loop as long as mid <= high and swap elements based on 3 conditions.                                     |
 |                                 [229](https://leetcode.com/problems/majority-element-ii/description/)                                 | [Sort Colors](/medium/229_majority_element_II)                                                                              |          medium           |                                     _`Counter`_ _`Hashmap`_                                      | There can be at most 2 such elements with floor(n /3). Do a first pass to find all and eliminate all the non-qualify elements, then the second pass check how many time a each candidate appear in the original array. |
+|                          [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                           | [Two Sum II - Input Array Is Sorted](/medium/167_two_sum_II_input_array_is_sorted)                                          |          medium           |                                         _`Two Pointers`_                                         |                       We know that the array is sorted in asc order. We can track the total sum of 2 pointers left and right and increase or decrease their indices accordingly in a while loop                        |
 
 ## Workflow 🌊
 
@@ -63,7 +64,6 @@ go test ./easy/0001_two_sum
 - Counts the number of solutions in each level
 - Update `README.md` with current stats
 - Automaticall commits and pushes the changes
-
 
 ## Statistics 📊
 
