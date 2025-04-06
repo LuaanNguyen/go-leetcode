@@ -64,6 +64,14 @@ go test ./easy/0001_two_sum
 - Update `README.md` with current stats
 - Automaticall commits and pushes the changes
 
+
+## Statistics 📊
+
+- Easy: 4 solutions
+- Medium: 14 solutions
+- Hard: 2 solutions
+- Total: 20 solutions
+
 ## License 🪪
 
 ```txt
