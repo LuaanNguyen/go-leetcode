@@ -39,22 +39,22 @@ jobs:
                   content = f.read()
               
               # Add statistics section if it doesn't exist
-              stats_section = f"""
+              stats_section = f\"\"\"
           ## Statistics 📊
 
           - Easy: {counts['easy']} solutions
           - Medium: {counts['medium']} solutions
           - Hard: {counts['hard']} solutions
           - Total: {sum(counts.values())} solutions
-          """
+          \"\"\"
               
               if '## Statistics' in content:
                   # Replace existing statistics section
                   import re
                   content = re.sub(r'## Statistics.*?(?=##|$)', stats_section, content, flags=re.DOTALL)
               else:
-                  # Add statistics section before License
-                  content = content.replace('## License', stats_section + '\n## License')
+                  # Add statistics section before Solutions
+                  content = content.replace('## Solutions', stats_section + '\\n## Solutions')
               
               with open('README.md', 'w') as f:
                   f.write(content)
