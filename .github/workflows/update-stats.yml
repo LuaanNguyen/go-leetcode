@@ -39,14 +39,14 @@ jobs:
                   content = f.read()
               
               # Add statistics section if it doesn't exist
-              stats_section = f\"\"\"
+              stats_section = f"""
           ## Statistics 📊
 
           - Easy: {counts['easy']} solutions
           - Medium: {counts['medium']} solutions
           - Hard: {counts['hard']} solutions
           - Total: {sum(counts.values())} solutions
-          \"\"\"
+          """
               
               if '## Statistics' in content:
                   # Replace existing statistics section
