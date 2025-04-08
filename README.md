@@ -26,6 +26,12 @@ If you only want to run tests in a specific problem `(e.g., ./easy/0001_two_sum)
 go test ./easy/0001_two_sum
 ```
 
+Clean test cache
+
+```bash
+go clean -testcache
+```
+
 ## Solutions (Continue Updating...)
 
 |                                                              Leetcode ID                                                              | Title & Solution                                                                                                            | Coefficient Of Difficulty |                                             Remarks                                              |                                                                                                        Approach                                                                                                        |
