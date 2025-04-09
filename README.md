@@ -74,12 +74,13 @@ go clean -testcache
 - Automaticall commits and pushes the changes
 
 
+
 ## Statistics 📊
 
-- Easy: 4 solutions
+- Easy: 5 solutions
 - Medium: 16 solutions
 - Hard: 2 solutions
-- Total: 22 solutions
+- Total: 23 solutions
 ## License 🪪
 
 ```txt
