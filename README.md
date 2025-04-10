@@ -57,6 +57,8 @@ go clean -testcache
 |                          [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)                           | [Two Sum II - Input Array Is Sorted](/medium/167_two_sum_II_input_array_is_sorted)                                          |          medium           |                                         _`Two Pointers`_                                         |                       We know that the array is sorted in asc order. We can track the total sum of 2 pointers left and right and increase or decrease their indices accordingly in a while loop                        |
 |                                         [15](https://leetcode.com/problems/3sum/description/)                                         | [3Sum](/medium/15_3sum)                                                                                                     |          medium           |                                         _`Two Pointers`_                                         |                            Interate through the array, initialize 2 other pointers j = i + 1 and k = n - 1 and check the sum and adjust j and k accordingly. Make sure to check duplicates                             |
 |                 [3375](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description)                  | [3Sum](/easy/3375_minimum_operations_to_make_array_values_equal_to_k)                                                       |          medium           |                                           _`Hashmap`_                                            |                                   There is no solution if a value that smaller than k. If a value is larger than k, we add it to our set and count the length of the set at the end                                    |
+|                                 [680](https://leetcode.com/problems/valid-palindrome-ii/description/)                                 | [Valid Palindrome II](/easy/680_valid_palindrome_II)                                                                        |           easy            |                                         _`Two Pointers`_                                         |                                  Have a helper function which has the same structure as the main function. Use 2 pointers to check the +1 or -1 element whether they are equal or not                                  |
+|                                   [344](https://leetcode.com/problems/reverse-string/description/)                                    | [Reverse String](/easy/344_reverse_string)                                                                                  |           easy            |                                         _`Two Pointers`_                                         |                                                                                                                                                                                                                        |
 
 ## Workflow 🌊
 
@@ -72,8 +74,6 @@ go clean -testcache
 - Counts the number of solutions in each level
 - Update `README.md` with current stats
 - Automaticall commits and pushes the changes
-
-
 
 ## Statistics 📊
 
