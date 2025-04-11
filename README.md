@@ -59,6 +59,7 @@ go clean -testcache
 |                 [3375](https://leetcode.com/problems/minimum-operations-to-make-array-values-equal-to-k/description)                  | [3Sum](/easy/3375_minimum_operations_to_make_array_values_equal_to_k)                                                       |          medium           |                                           _`Hashmap`_                                            |                                   There is no solution if a value that smaller than k. If a value is larger than k, we add it to our set and count the length of the set at the end                                    |
 |                                 [680](https://leetcode.com/problems/valid-palindrome-ii/description/)                                 | [Valid Palindrome II](/easy/680_valid_palindrome_II)                                                                        |           easy            |                                         _`Two Pointers`_                                         |                                  Have a helper function which has the same structure as the main function. Use 2 pointers to check the +1 or -1 element whether they are equal or not                                  |
 |                                   [344](https://leetcode.com/problems/reverse-string/description/)                                    | [Reverse String](/easy/344_reverse_string)                                                                                  |           easy            |                                         _`Two Pointers`_                                         |                                                                                                                                                                                                                        |
+|                              [2843](https://leetcode.com/problems/count-symmetric-integers/description/)                              | [Count Symmetric Integers](/easy/2843_count_symmetric_integers)                                                             |           easy            |                                                                                                  |                                                                                                                                                                                                                        |
 
 ## Workflow 🌊
 
@@ -75,13 +76,13 @@ go clean -testcache
 - Update `README.md` with current stats
 - Automaticall commits and pushes the changes
 
-
 ## Statistics 📊
 
 - Easy: 7 solutions
 - Medium: 16 solutions
 - Hard: 2 solutions
 - Total: 25 solutions
+
 ## License 🪪
 
 ```txt
