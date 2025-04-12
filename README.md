@@ -60,6 +60,7 @@ go clean -testcache
 |                                 [680](https://leetcode.com/problems/valid-palindrome-ii/description/)                                 | [Valid Palindrome II](/easy/680_valid_palindrome_II)                                                                        |           easy            |                                         _`Two Pointers`_                                         |                                  Have a helper function which has the same structure as the main function. Use 2 pointers to check the +1 or -1 element whether they are equal or not                                  |
 |                                   [344](https://leetcode.com/problems/reverse-string/description/)                                    | [Reverse String](/easy/344_reverse_string)                                                                                  |           easy            |                                         _`Two Pointers`_                                         |                                                                                                                                                                                                                        |
 |                              [2843](https://leetcode.com/problems/count-symmetric-integers/description/)                              | [Count Symmetric Integers](/easy/2843_count_symmetric_integers)                                                             |           easy            |                                                                                                  |                                                                                                                                                                                                                        |
+|                                         [18](https://leetcode.com/problems/4sum/description/)                                         | [4Sum](/medium/18_4sum)                                                                                                     |          medium           |                                         _`Two pointers`_                                         |                                        Do Two Sum II and 3Sum first since 4Sum is the combination of those problems. There is an extra for loop. Make sure to check duplicates.                                        |
 
 ## Workflow 🌊
 
@@ -76,13 +77,13 @@ go clean -testcache
 - Update `README.md` with current stats
 - Automaticall commits and pushes the changes
 
-
 ## Statistics 📊
 
 - Easy: 8 solutions
 - Medium: 16 solutions
 - Hard: 2 solutions
 - Total: 26 solutions
+
 ## License 🪪
 
 ```txt
