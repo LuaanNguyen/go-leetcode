@@ -76,13 +76,13 @@ go clean -testcache
 - Update `README.md` with current stats
 - Automaticall commits and pushes the changes
 
+
 ## Statistics 📊
 
-- Easy: 7 solutions
+- Easy: 8 solutions
 - Medium: 16 solutions
 - Hard: 2 solutions
-- Total: 25 solutions
-
+- Total: 26 solutions
 ## License 🪪
 
 ```txt
