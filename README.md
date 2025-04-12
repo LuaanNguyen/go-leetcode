@@ -80,9 +80,9 @@ go clean -testcache
 ## Statistics 📊
 
 - Easy: 8 solutions
-- Medium: 16 solutions
+- Medium: 17 solutions
 - Hard: 2 solutions
-- Total: 26 solutions
+- Total: 27 solutions
 
 ## License 🪪
 
